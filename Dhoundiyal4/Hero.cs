@@ -49,9 +49,11 @@ namespace CharacterNS
         *    public Global.WeaponType Weapon;
         * RETURN : void
         */
-        public Hero(short protection , Global.WeaponType weapon)
+        public Hero(string name, Global.RaceType race, short health, short protection , Global.WeaponType weapon)
         {
-
+            this.Name = name;
+            this.Race = race;
+            this.Health = health;
             Protection = protection;
             Weapon = weapon;
         }

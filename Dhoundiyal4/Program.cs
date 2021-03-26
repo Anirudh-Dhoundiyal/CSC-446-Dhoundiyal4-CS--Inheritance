@@ -7,7 +7,7 @@ namespace CharacterNS
         static void Main(string[] args)
         {
 
-            Hero ani = new Hero( 60, Global.WeaponType.SPELL );
+            Hero ani = new Hero( "Ralf", Global.RaceType.HUMAN, 500 , 60, Global.WeaponType.SPELL );
             View.ViewV(ani);
             View.ViewH(ani);
 
